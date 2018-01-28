@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.ashish.sudokusolver.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="1"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:id="@+id/b_1"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="2"
+                    android:layout_weight="1"
+                    android:id="@+id/b_2"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="3"
+                    android:layout_weight="1"
+                    android:id="@+id/b_3"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="4"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:id="@+id/b_4"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="5"
+                    android:layout_weight="1"
+                    android:id="@+id/b_5"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="6"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:id="@+id/b_6"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="7"
+                    android:layout_weight="1"
+                    android:id="@+id/b_7"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="8"
+                    android:layout_weight="1"
+                    android:id="@+id/b_8"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="9"
+                    android:layout_weight="1"
+                    android:id="@+id/b_9"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:text="CLR"
+                android:textSize="20dp"
+                android:id="@+id/b_c"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
